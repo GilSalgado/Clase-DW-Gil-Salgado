@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+#logo-container{
+  width: 140px;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 25px;
+  background: red;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-text{
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 30px;
+  background-color: red;
+  position: relative;
+  bottom: 5px;
+}
+
+#link-text{
+  font-family: 'Courier New' , Courier, monospace;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+#header{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#content-container{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+
+}
+nav{
+
+  padding-left: 40px;
+  font-family: 'Courier New' , Courier, monospace;
+
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+#main-nav{
+  margin-bottom: 33px;
+
+}
+
+#main-nav ul li{
+  padding: 10px 0;
+
+}
+
+
+#second-nav{
+  padding-left: 0;
+
+}
+
+#second-nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+#second-nav ul li{
+  padding-left: 0;
+  padding-right: 10px;
+
+}
